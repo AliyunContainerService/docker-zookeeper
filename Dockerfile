@@ -20,4 +20,4 @@ WORKDIR /opt/zookeeper
 VOLUME ["/opt/zookeeper/conf", "/tmp/zookeeper"]
 ADD run.sh /opt/zookeeper.sh
 
-CMD ["run.sh"]
+CMD ["/opt/zookeeper.sh"]
